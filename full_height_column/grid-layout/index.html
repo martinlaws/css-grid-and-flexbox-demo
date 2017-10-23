@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" type="text/css" href="grid-layout.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <h1>CSS Grid</h1>
+            <p>Using CSS Grid layout, full-height columns are also pretty freaking easy!</p>
+        </aside>
+
+        <main>
+            <h1>How did we do this?</h1>
+
+            <code><pre>
+        .container {
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+
+        aside {
+            grid-column: 1;
+        }
+
+        main {
+            grid-column: 2;
+        }
+            </pre></code>
+        </main>
+    </div>
+</body>
+</html>

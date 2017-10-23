@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+aside {
+    grid-column: 1;
+
+    /* We need a bit more to make things look pretty */
+    background-color: #70C197;
+    padding: 1.5rem 3rem;
+
+}
+
+main {
+    grid-column: 2;
+
+    /* We need a bit more to make things look pretty */
+    height: 100vh;
+    background-color: #56b3d5;
+    padding: 1.5rem 3rem;
+}
+
+pre {
+    background-color: rgba(0,0,0,0.12);
+    width: auto;
+}

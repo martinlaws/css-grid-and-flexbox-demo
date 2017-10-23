@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" type="text/css" href="flexbox-layout.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <h1>Flexbox</h1>
+            <p>Using Flexbox, full-height columns are a breeze!</p>
+        </aside>
+
+        <main>
+            <h1>How did we do this?</h1>
+
+            <code>
+            .container {
+                display: flex;
+            }
+
+            aside {
+                flex: 1 1 30%;
+            }
+
+            main {
+                flex: 1 1 70%;
+            }
+            </code>
+        </main>
+    </div>
+</body>
+</html>
