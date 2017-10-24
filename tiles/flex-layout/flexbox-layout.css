@@ -1,8 +1,6 @@
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
 
     /* We need a bit more to make things look pretty */
     padding: 12.5rem 10rem;
