@@ -1,0 +1,72 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* We need a bit more to make things look pretty */
+    padding: 12.5rem 10rem;
+    height: 100vh;
+    font-size: 4rem;
+    background-color: #246BB2;
+}
+
+.tile {
+    /* For the children, THINK OF THE CHILDREN! */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* We need a bit more to make things ANIMATED (kinda) */
+    min-height: 15rem;
+    transition: all 0.35s ease-in-out;
+}
+
+.tile:hover {
+    color: #003D66;
+    box-shadow:5px 7px 0px 0px #003D66;
+    transform: translate(-5px, -7px);
+}
+
+.tile:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.tile:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.tile:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.tile:nth-child(4) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.tile:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.tile:nth-child(6) {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.tile:nth-child(7) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.tile:nth-child(8) {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.tile:nth-child(9) {
+    grid-column: 3;
+    grid-row: 3;
+}

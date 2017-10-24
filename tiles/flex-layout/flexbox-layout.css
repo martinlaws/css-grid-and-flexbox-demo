@@ -5,9 +5,10 @@
     justify-content: flex-start;
 
     /* We need a bit more to make things look pretty */
-    padding: 27.5rem 20rem;
-    min-height: 100vh;
+    padding: 12.5rem 10rem;
+    height: 100vh;
     font-size: 4rem;
+    background-color: #246BB2;
 }
 
 .tile {
@@ -19,9 +20,12 @@
     justify-content: center;
 
     /* We need a bit more to make things ANIMATED (kinda) */
-    transition: 0.1s ease-in-out;
+    min-height: 15rem;
+    transition: all 0.35s ease-in-out;
 }
 
 .tile:hover {
-    color: #000;
+    color: #003D66;
+    box-shadow:5px 7px 0px 0px #003D66;
+    transform: translate(-5px, -7px);
 }
