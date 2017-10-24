@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Setting the colours here */
+.tile:nth-child(1) {
+    background-color: #FF5050;
+    border: 1px solid #FF5050;
+}
+
+.tile:nth-child(2) {
+    background-color: #FF9966;
+    border: 1px solid #FF9966;
+}
+
+.tile:nth-child(3) {
+    background-color: #FFFF66;
+    border: 1px solid #FFFF66;
+}
+
+.tile:nth-child(4) {
+    background-color: #99FF66;
+    border: 1px solid #99FF66;
+}
+
+.tile:nth-child(5) {
+    background-color: #00FF99;
+    border: 1px solid #00FF99;
+}
+
+.tile:nth-child(6) {
+    background-color: #0099FF;
+    border: 1px solid #0099FF;
+}
+
+.tile:nth-child(7) {
+    background-color: #6666FF;
+    border: 1px solid #6666FF;
+}
+
+.tile:nth-child(8) {
+    background-color: #9966FF;
+    border: 1px solid #9966FF;
+}
+
+.tile:nth-child(9) {
+    background-color: #9900FF;
+    border: 1px solid #9900FF;
+}
