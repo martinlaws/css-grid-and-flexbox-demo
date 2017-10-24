@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(80px, 1fr));
+    grid-column-gap: 15px;
+
+    /* We need a bit more to make things look pretty */
+    height: 100vh;
+    font-size: 4rem;
+    background-color: #246BB2;
+}
+
+.column {
+    background-color: #9966FF;
+    border: 1px solid #9966FF;
+
+    /* We need a bit more to make things look pretty */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
