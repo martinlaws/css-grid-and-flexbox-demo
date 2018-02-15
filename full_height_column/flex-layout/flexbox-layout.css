@@ -10,7 +10,7 @@
 }
 
 aside {
-    flex: 1 1 30%;
+    flex: 1 1 33%;
 
     /* We need a bit more to make things look pretty */
     background-color: #70C197;
@@ -19,7 +19,7 @@ aside {
 }
 
 main {
-    flex: 1 1 70%;
+    flex: 1 1 67%;
 
     /* We need a bit more to make things look pretty */
     height: 100vh;
