@@ -1,5 +1,5 @@
 # CSS Grid Layout Demo
-by [Martin Laws](https://twitter.com/martinblaws), UX Development Lead @ [Index Exchange](http://www.indexexchange.com)
+by [Martin Laws](https://twitter.com/martinblaws), Front End @ [Ample Organics](http://www.ampleorganics.com)
 
 ---
 
@@ -11,7 +11,6 @@ Grid allows you to declare two-dimensional layouts, much in the same way as thir
 ![Grid Layout Example](https://i.imgur.com/OTN63a5.png)
 
 ### Links and Reference Material
-* [Martin's Slide Deck](https://docs.google.com/a/cascorp.net/presentation/d/1WR3gDXBJNYNQy4SDiAYXzwzqm3UY_q6o0rXUTKqtwAI/edit?usp=sharing)
 * [CSS Grid Docs (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
 * [Flexbox Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 * [Box Module Docs (W3)](https://www.w3.org/TR/css-align-3/#intro)
