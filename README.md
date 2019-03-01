@@ -13,5 +13,6 @@ Grid allows you to declare two-dimensional layouts, much in the same way as thir
 ### Links and Reference Material
 * [CSS Grid Docs (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
 * [Flexbox Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+* [Complete Guide to CSS Grid (CSS-Tricks)](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Box Module Docs (W3)](https://www.w3.org/TR/css-align-3/#intro)
 * [Feature/`@supports` Query Docs (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports)
