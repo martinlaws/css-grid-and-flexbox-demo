@@ -28,6 +28,10 @@ main {
     padding: 1.5rem 3rem;
 }
 
-pre {
+pre code {
+    display: inline-block;
+    padding: 1rem 2rem;
     background-color: rgba(0,0,0,0.12);
+    font: normal 1rem monospace;
+    width: auto;
 }
