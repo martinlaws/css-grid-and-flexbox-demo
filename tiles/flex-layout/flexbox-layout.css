@@ -1,29 +1,8 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-
-    /* We need a bit more to make things look pretty */
-    padding: 12.5rem 10rem;
-    height: 100vh;
-    font-size: 4rem;
-    background-color: #246BB2;
 }
 
 .tile {
     flex: 1 1 20rem;
-
-    /* For the children, THINK OF THE CHILDREN! */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* We need a bit more to make things ANIMATED (kinda) */
-    min-height: 15rem;
-    transition: all 0.35s ease-in-out;
-}
-
-.tile:hover {
-    color: #003D66;
-    box-shadow:5px 7px 0px 0px #003D66;
-    transform: translate(-5px, -7px);
 }
