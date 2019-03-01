@@ -1,12 +1,21 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
+
+    /* Alternatively to the line above, you could use named areas: */
+    /* grid-template-areas: sidebar main-section; */
 }
 
 aside {
     grid-column: 1;
+
+    /* If you're using named areas: */
+    /* grid-area: sidebar; */
 }
 
 main {
     grid-column: 2;
+
+    /* If you're using named areas: */
+    /* grid-area: main-section; */
 }
