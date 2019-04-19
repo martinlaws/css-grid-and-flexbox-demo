@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
-
-$container-width: 500px;
-$container-background-color: cyan;
+@import './vars.scss';
 
 * {
   margin: 0;
