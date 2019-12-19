@@ -9,8 +9,9 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(12, minmax(5rem, 1fr));
-    grid-column-gap: 15px;
+    grid-template-columns: repeat(12, minmax(50px, 1fr));
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
 
     /* We need a bit more to make things look pretty */
     height: 100vh;
