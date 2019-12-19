@@ -1,13 +1,28 @@
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 aside {
-    flex-basis: 33%;
-    order: 1;
+    order: 2;
 }
 
 main {
-    flex-basis: 67%;
-    order: 2;
+    order: 1;
+}
+
+@media (min-width: 745px) {
+    .container {
+        flex-flow: row nowrap;
+    }
+
+    aside {
+        flex-basis: 33%;
+        order: 1;
+    }
+
+    main {
+        flex-basis: 67%;
+        order: 2;
+    }
 }
